@@ -1,0 +1,170 @@
+.slider {
+    box-sizing:border-box;
+    width:100%;
+    height:80vh;
+    
+}
+
+.slider .controls {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:100px;
+    height:100px;
+    z-index:2;
+}
+
+.slider .controls > div {
+    position:absolute;
+    width:50px;
+    height:50px;
+    text-align:center;
+    line-height:50px;
+    font-size:20px;
+    cursor:pointer;
+}
+
+.slider .controls > .up {
+    top:0px;
+    right:0px;
+    background:#fff;
+    color:#111;
+
+
+}
+.slider .controls > .down {
+    bottom:0px;
+    left:0px;
+    background:#111;
+    color:#fff;
+    
+}
+.slider .wrapper {
+    width:100%;
+    height:100%;
+    display:flex;
+
+}
+.slider .wrapper .left,
+.slider .wrapper .right {
+    width:50%;
+    overflow:hidden;
+
+}
+
+.slidder .wrapper .left > div,
+.slidder .wrapper .right > div {
+    width:100%;
+    height:100%;
+
+}
+
+
+.slidder .wrapper .left > div {
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    height:80vh;
+}
+.slider .wrapper .left > div h2 {
+    font-size:  30px;
+    margin-bottom:10px;
+    height: 40%;
+}
+.slider .wrapper .left > div p {
+    color:#555;
+    font-size:18px;
+    height:60%;
+
+
+}
+.slider .wrapper .right > div img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}   
+.slider .wrapper .right div:nth-child(1){
+    margin-top:-320vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="slider">
+        <div class="controls">
+            <div class="up">
+                <i class="fa fa-chevron-up"></i>
+            </div>
+            <div class="down">
+                <i class="fa fa-chevron-down"></i>
+            </div>
+        
+        </div>
+        <div class="wrapper">
+            <div class="left">
+                <div>
+                    <h2>Google Developer club</h2>
+                    <p>It is a bu  ffffddddddddddddddddssai to emphasize that his compositions were attempts or endeavours, a groping toward the expression of his personal thoughts and experiences, Montaigne used the essay as a means of self-discovery. His Essais, published in their final form in 1588, are still considered among the finest of their kind. Later writers who most nearly recall the charm of Montaigne include, in England, Robert Burton, though his whimsicality is more erudite, Sir Thomas Browne, and Laurence Sterne, and in France, with more self-consciousness and pose, André Gide and Jean Cocteau...........</p>
+                </div>
+                <div>
+                    <h2> CSI</h2>
+                    <p> Its computer scocity of iSome early treatises—such as those of Cicero on the pleasantness of old age or on the art of “divination,” Seneca on anger or clemency, and Plutarch on the passing of oracles—presage to a certain degree the form and tone of the essay, but not until the late 16th century was the flexible and deliberately nonchalant and versatile form of the essay perfected by the French writer Michel de Montaigne. Choosing the name essai to emphasize that his compositions were attempts or endeavours, a groping toward the expression of his personal thoughts and experiences, Montaigne used the essay as a means of self-discovery. His Essais, published in their final form in 1588, are still considered among the finest of their kind. Later writers who most nearly recall the charm of Montaigne include, in England, Robert Burton, though his whimsicality is more erudite, Sir Thomas Browne, and Laurence Sterne, and in France, with more self-consciousness and pose, André Gide and Jean Cocteau.ndia </p>
+                </div>
+                <div>
+                    <h2> Geek for geek</h2>
+                    <p> Its good to know tSome early treatises—such as those of Cicero on the pleasantness of old age or on the art of “divination,” Seneca on anger or clemency, and Plutarch on the passing of oracles—presage to a certain degree the form and tone of the essay, but not until the late 16th century was the flexible and deliberately nonchalant and versatile form of the essay perfected by the French writer Michel de Montaigne. Choosing the name essai to emphasize that his compositions were attempts or endeavours, a groping toward the expression of his personal thoughts and experiences, Montaigne used the essay as a means of self-discovery. His Essais, published in their final form in 1588, are still considered among the finest of their kind. Later writers who most nearly recall the charm of Montaigne include, in England, Robert Burton, though his whimsicality is more erudite, Sir Thomas Browne, and Laurence Sterne, and in France, with more self-consciousness and pose, André Gide and Jean Cocteau.his club etc etc ...</p>
+                </div>
+                <div>
+                    <h2> Advita</h2>
+                    <p> music Some early treatises—such as those of Cicero on the pleasantness of old age or on the art of “divination,” Seneca on anger or clemency, and Plutarch on the passing of oracles—presage to a certain degree the form and tone of the essay, but not until the late 16th century was the flexible and deliberately nonchalant and versatile form of the essay perfected by the French writer Michel de Montaigne. Choosing the name essai to emphasize that his compositions were attempts or endeavours, a groping toward the expression of his personal thoughts and experiences, Montaigne used the essay as a means of self-discovery. His Essais, published in their final form in 1588, are still considered among the finest of their kind. Later writers who most nearly recall the charm of Montaigne include, in England, Robert Burton, though his whimsicality is more erudite, Sir Thomas Browne, and Laurence Sterne, and in France, with more self-consciousness and pose, André Gide and Jean Cocteau.club of bu</p>
+                </div>
+                <div>
+                    <h2> CODECHEF</h2>
+                    <p> Coding cSome early treatises—such as those of Cicero on the pleasantness of old age or on the art of “divination,” Seneca on anger or clemency, and Plutarch on the passing of oracles—presage to a certain degree the form and tone of the essay, but not until the late 16th century was the flexible and deliberately nonchalant and versatile form of the essay perfected by the French writer Michel de Montaigne. Choosing the name essai to emphasize that his compositions were attempts or endeavours, a groping toward the expression of his personal thoughts and experiences, Montaigne used the essay as a means of self-discovery. His Essais, published in their final form in 1588, are still considered among the finest of their kind. Later writers who most nearly recall the charm of Montaigne include, in England, Robert Burton, though his whimsicality is more erudite, Sir Thomas Browne, and Laurence Sterne, and in France, with more self-consciousness and pose, André Gide and Jean Cocteau.lub and famous website</p>
+                </div>
+            </div>
+            <div class="right">
+                <div>
+                    <img src="Image/CF.png" >
+                </div>
+                <div>
+                    <img src="Image/AD.png" >
+                </div>
+                <div>
+                    <img src="Image/GFG.png" >
+                </div>
+                <div>
+                    <img src="Image/CSI.png" >
+                </div>
+                <div>
+                    <img src="Image/GDSC.png" >
+                </div>   
+            </div>
+        </div>
+    </div>
+    <script src="Java.js"></script>
